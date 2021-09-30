@@ -1,0 +1,10 @@
+/* ./src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800;900&family=Poppins:wght@200;300;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.module-theme-okaidia pre[class*="language-"].line-numbers > code {
+    position: relative !important;
+    white-space: pre-line !important;
+}
